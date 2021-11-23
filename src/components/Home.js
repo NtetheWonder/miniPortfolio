@@ -9,6 +9,8 @@ const Header = () =>{
                 Hello, I'm Ntethelelo Shabalala, software developer.
                 I chose Computer Science as it strongly complements my interest and pasion.
                 I have a strong interest in technology and solving problems primiraly through coding.
+                </p>
+                <p className="text">
                 I am hardworking, driven, technically astute and someone who will work closely with people within
                 the organization to achieve your  innovative software, technological development, solutions and services goals. 
     

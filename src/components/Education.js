@@ -3,14 +3,16 @@ const Education =() => {
     return (
         
         <div className="education" id="education">
+          <div className="container">
         <div className ="section-header">
           <h3 className="title" data-title="My journey">My Education</h3>
 
         </div>
-<div className="container">
 
-  <div className="section-body grid-2">
+
+  <div className="grid-2">
     <div className="column-1">
+      <div className ="text">
         <i className="fas fa-graduation-cap"></i>
         <span>2018 - 2021</span>
         <h2>University of KwaZulu-Natal</h2>
@@ -41,6 +43,7 @@ const Education =() => {
           <li>Geography </li>
         <li>Life Orientation</li>
         </ul>
+        </div>
     </div>
 
   </div>

@@ -25,27 +25,7 @@ const About = () =>{
                and analyzing information, working in groups, and contributing to project strategies.
                My focus is to utilize my strengths in problem-solving to make a positive impact.
              </p>
-             <div className="skills">
-               <div className="skill html">
-                 <h3 className="skill-title">Java</h3>
-                 <div className="skill-bar">
-                   <div className="skill-progress" data-progress="90%"></div>
-                 </div>
-               </div>
-               <div className="skill css">
-                 <h3 className="skill-title">Python</h3>
-                 <div className="skill-bar">
-                   <div className="skill-progress" data-progress="70%"></div>
-                 </div>
-               </div>
-               <div className="skill js">
-                 <h3 className="skill-title">HTML</h3>
-                 <div className="skill-bar">
-                   <div className="skill-progress" data-progress="80%"></div>
-                 </div>
-               </div>
-             </div>
-             <a href="#" className="btn">Read more</a>
+             
            </div>
 
            <div className="column-2 ">
