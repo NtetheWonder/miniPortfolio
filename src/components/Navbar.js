@@ -16,19 +16,19 @@ const Navbar =() =>{
         
             <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
-                <a className="nav-link" href="#">Home </a>
+                <a className="nav-link" href="#home">Home </a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <a className="nav-link" href="#about">About</a>
         </li>
         <li className="nav-item">
-                <a className="nav-link" href="#">Education</a>
+                <a className="nav-link" href="#education">Education</a>
         </li>
         <li className="nav-item">
-                <a className="nav-link" href="#">Projects</a>
+                <a className="nav-link" href="#projects">Projects</a>
         </li>
         <li className="nav-item">
-            <a className="nav-link" href="#">Contacts</a>
+            <a className="nav-link" href="#contact">Contacts</a>
         </li>   
         </ul>
         </div>
