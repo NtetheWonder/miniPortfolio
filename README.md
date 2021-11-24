@@ -1,4 +1,5 @@
 # Portfolio with Create React App
+Here I am working on building my portfolio using React
 
 # Deployment
 Find the deployed app  here: [http://ntethe.netlify.app].
@@ -8,12 +9,12 @@ Find the deployed app  here: [http://ntethe.netlify.app].
 <ul>
 <li>Home </li>
 <li>About me</li>
-
+<li>My education</li>
+<li>Portfolio/Projects</li>
+<li>Certifications</li>
+<li>Contacts</li>
   <ul>
-My education
-Portfolio/Projects
-Certifications
-Contacts
+
 # Technologies and stripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -22,10 +23,10 @@ JavaScript, CSS, Html
 
 # website preview
 ## Home
-![](src ="img/home.png")
+![](src ="src/img/home.png")
 
 ## About me
-<img src ="img/about.png">
+<img src ="src/img/about.png">
 
 ## Education
 <img src ="img/education.png">
