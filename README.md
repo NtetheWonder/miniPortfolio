@@ -1,16 +1,19 @@
-#Portfolio with Create React App
+# Portfolio with Create React App
 
 # Deployment
 Find the deployed app  here: [http://ntethe.netlify.app].
 
 # Menu
-Home 
-About me
+
+<ul>
+<li>Home </li>
+<li>About me</li>
+
+  <ul>
 My education
 Portfolio/Projects
 Certifications
 Contacts
-
 # Technologies and stripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -19,7 +22,7 @@ JavaScript, CSS, Html
 
 # website preview
 ## Home
-<img src="img/home.png">
+![](src ="img/home.png")
 
 ## About me
 <img src ="img/about.png">
