@@ -23,10 +23,10 @@ JavaScript, CSS, Html
 
 # website preview
 ## Home
-![](src ="src/img/home.png")
+![](src ="img/home.png")
 
 ## About me
-<img src ="src/img/about.png">
+<img src ="img/about.png">
 
 ## Education
 <img src ="img/education.png">
