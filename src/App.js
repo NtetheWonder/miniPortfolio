@@ -12,14 +12,15 @@ function App() {
   return (
     <>
     <Navbar/>
+    <section className ="container">
    <Header/>
    <About/>
    <Education/>
-   <Contacts/>
    <Portfolio/>
+   <Contacts/>
    <Footer/>
-   </>
- 
+  </section>
+  </>
   );
 }
 

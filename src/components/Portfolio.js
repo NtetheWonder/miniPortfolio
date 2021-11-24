@@ -1,7 +1,7 @@
 const Portfolio =() => {
     return(
-        <div>
-            <section class="services section" id="services">
+        
+        <section class="services section" id="services">
         <div class="container">
           <div class="section-header">
             <h3 class="title" data-title="What I Do">Projects</h3>
@@ -66,7 +66,7 @@ const Portfolio =() => {
         </div>
       </section>
     
-        </div>
+      
     )
 }
 export default Portfolio

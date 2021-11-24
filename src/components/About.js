@@ -2,7 +2,7 @@
 const About = () =>{
 
     return(
-       <div className="about section" id="about">
+       <section className="about section" id="about">
        <div className="container">
          <div className="section-header">
            <h3 className="title" data-title="Who Am I">About me</h3>
@@ -12,48 +12,107 @@ const About = () =>{
            <div className="column-1">
              <h3 className="title-sm">Hi, my name is Ntethelelo Shabalala </h3>
              <p className="text">
-               Highly motivated individual with ability to analyze and solve problems, 
-               I can recognize problem areas, and I am able to evaluate the possible 
-               alternatives as well as implement effective solutions. Flexible, 
-               Adaptable I learn very quickly and can adapt easily to new work environments,
-               new procedures, new technologies, and new policies.
+              I want to work in software development and would like to
+               gain experience that is not restricted to the field.
+                I chose Computer Science as it strongly complements my interest and pasion.
+                I have a strong interest in technology and enjoy solving problems primiraly through coding.
                </p>
                <p className="text">
-                Reliable, Self-motivator 
-               I consistently strive to achieve new levels of performance, welcome new projects, 
-               and require little, if any, direct supervision. I enjoy gathering, organizing, 
-               and analyzing information, working in groups, and contributing to project strategies.
-               My focus is to utilize my strengths in problem-solving to make a positive impact.
-             </p>
-             
-           </div>
-
-           <div className="column-2 ">
-           <h3 className="title-sm">Why me!</h3>
-             <p className="text">
-               I want to be a software developer simply because it is a role that I am extremely passionate about,
-               and also one I get immense job satisfaction from,
-               expecially when I get to see first-hand the positive contribution my work makes to the organization I am 
-               working on.
-              </p>
-              <p className="text">
-               If you pick me as part the SovTech graduate team, I will not only work hard to deliver consistent positive
+               I am a hardworking, driven, technically savvy individual who will collaborate closely with others 
+                within the organization to develop innovative software. 
+                If you pick me as part the SovTech graduate team, I will not only work hard to deliver consistent positive
                result, but I will use my developing, researching, analytical and technical skills to help the company to 
                continually thrive and develop.
              </p>
+             <h4 className="title-sm">Skills highlight:</h4>
+             <div class="skills">
+                <div class="skill java">
+                  <h5 class="skill-title">Java</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90%"></div>
+                  </div>
+                </div>
+                <div class="skill python">
+                  <h5 class="skill-title">Python</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill html">
+                  <h5 class="skill-title">HTML</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+             
+                <div class="skill css">
+                  <h5 class="skill-title">CSS</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h5 class="skill-title">Javascript</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+              </div>
+              
+              <a href="#" class="btn">Read more</a>
+           </div>
 
+           <div className="column-2 ">
+           <h3 className="title-sm">Why SovTech!</h3>
              <p className="text">
-               For me, the company I work for is very important.I believe that, to be able to perform your duties and responsibilies
-               as a software develope competently, you need the support of your employer, and also need to work with like minded people
-               who are all working towarsds a common goal
+              For me, the company I work for is very important.I believe that, to be able to perform your duties and responsibilies
+              as a software developer competently, you need the support of your employer, and also need to work with like minded people
+              who are all working towards a common goal.
+              </p>
+              <p className="text">
+              SovTech is known for it strong culture and strong belief in technology. You guys are not only a leader in the industry,
+              but you continually look for ways to grow and develop.
+              You clearly hire the best people in the business, which means I can get to learn from and grow alongside strong professionals who clearly cares and love their
+              jobs.
              </p>
+
+        
+             <p className="text">
+              I am someone who is ambitious; I don't like to sit back and do the bare minimum, and if you take a chance on me, I feel
+              confident you will be impressed with my work values, ethics and high standards.
+             </p>
+             <h4 className="title-sm">Soft Skills highlight:</h4>
+             <div class="skills">
+                <div class="skill html">
+                  <h5 class="skill-title">Communication</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90%"></div>
+                  </div>
+                </div>
+                <div class="skill css">
+                  <h5 class="skill-title">Adaptive</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h5 class="skill-title">Positive attitude</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+              <a href="#" class="btn">My Linkedin <img src = "./img/linkedin.png"/></a>
 
              
            </div>
            
          </div>
        </div>
-     </div>
+     </section>
     )
 }
 
