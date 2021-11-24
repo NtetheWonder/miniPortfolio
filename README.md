@@ -1,3 +1,4 @@
+![home](https://user-images.githubusercontent.com/44553859/143158933-81ce1394-f196-4f6d-b7ab-09b041f43165.png)
 # Portfolio with Create React App
 Here I am working on building my portfolio using React
 
@@ -23,7 +24,8 @@ JavaScript, CSS, Html
 
 # website preview
 ## Home
-![](src ="img/home.png")
+
+![home](https://user-images.githubusercontent.com/44553859/143159110-cd3e4087-00af-41e7-8ec4-5584d44edc02.png)
 
 ## About me
 <img src ="img/about.png">
@@ -32,10 +34,12 @@ JavaScript, CSS, Html
 <img src ="img/education.png">
 
 ## Portfolio
-<img src ="img/projects.png">
+![projects](https://user-images.githubusercontent.com/44553859/143159237-a0b45808-acda-4c91-acf1-e7fab2c289dd.png)
+
 
 ## Contacts
-<img src ="img/contacts.png">
+![contacts](https://user-images.githubusercontent.com/44553859/143159185-b7cfe4b3-2235-4bab-9f1d-0eaabaf76dd1.png)
+
 
 
 
