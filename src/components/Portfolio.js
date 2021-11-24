@@ -1,12 +1,12 @@
 const Portfolio =() => {
     return(
         
-        <section class="services section" id="services">
+        <section class="project section" id="projects">
         <div class="container">
           <div class="section-header">
             <h3 class="title" data-title="What I Do">Projects</h3>
             <p class="text">
-              Programming languages I am proficient on:
+              Some of the project I have worked on and some still working on.
             </p>
           </div>
 
@@ -20,10 +20,9 @@ const Portfolio =() => {
               <div class="card" data-card="UI/UX">
                 <div class="card-content z-index">
                   <img src="./img/java.png" class="icon" alt="" />
-                  <h3 class="title-sm">Java</h3>
+                  <h3 class="title-sm">Pet sitter app</h3>
                   <p class="text">
-                    The main language of which I did most of acadermic work in, 
-                    from 1st year to third year.
+                    This one formed as part of the assignment and still working on.
                   </p>
                   <a href="#" class="btn small">Read more</a>
                 </div>
@@ -34,10 +33,10 @@ const Portfolio =() => {
               <div class="card" data-card="Code">
                 <div class="card-content z-index">
                   <img src="./img/python.jpg" class="icon" alt="" />
-                  <h3 class="title-sm">Python</h3>
+                  <h3 class="title-sm">Maze Application</h3>
                   <p class="text">
-                    The first language I ever learned, which got me more interested 
-                    and in love with programming.
+                    This is a java Gui application which solves the maize problem, of finding the shortest path using 
+                    different search algorithms(BFS ,A* algorithms).
                   </p>
                   <a href="#" class="btn small">Read more</a>
                 </div>
@@ -53,20 +52,30 @@ const Portfolio =() => {
               <div class="card" data-card="App">
                 <div class="card-content z-index">
                   <img src="./img/html.png" class="icon" alt="" />
-                  <h3 class="title-sm">HTMl</h3>
+                  <h3 class="title-sm">Fitness Quiz </h3>
                   <p class="text">
-                   The foundation and probably the most important of all web deveopment,
-                   first learned it back as a freshman in university in 2018.
+                   This is a quiz application about healthy living lifestyle practise developed using C++
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+              <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content z-index">
+                  <img src="./img/python.jpg" class="icon" alt="" />
+                  <h3 class="title-sm">My Other Portfolio</h3>
+                  <p class="text">
+                    Just html, css and js.
                   </p>
                   <a href="#" class="btn small">Read more</a>
                 </div>
               </div>
             </div>
+            </div>
           </div>
         </div>
       </section>
     
-      
     )
 }
 export default Portfolio
