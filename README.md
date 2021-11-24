@@ -14,12 +14,12 @@ Find the deployed app  here: [http://ntethe.netlify.app].
 <li>Portfolio/Projects</li>
 <li>Certifications</li>
 <li>Contacts</li>
-  <ul>
+ <ul>
 
 # Technologies and stripts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-JavaScript, CSS, Html
+<p>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</p>
+   <p>JavaScript, CSS, Html</p>
 
 
 # website preview
