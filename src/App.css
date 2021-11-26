@@ -31,6 +31,9 @@ nav {
 
   nav a.nav-link{
 
+    width: 100%;
+    height: 100%;
+    background: #333;
     display: inline-block;
     padding: 0.9rem 1.2rem;
     color: var(--light-one);
@@ -61,7 +64,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
-  height: 100 vh;
+  height: 100 vh !important;
 }
 
 .text {

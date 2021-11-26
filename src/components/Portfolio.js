@@ -1,8 +1,10 @@
+import './portfolio.css';
+
 const Portfolio =() => {
     return(
         
         <section class="project section" id="projects">
-        <div class="container">
+        <div class="container-port">
           <div class="section-header">
             <h3 class="title" data-title="What I Do">Projects</h3>
             <p class="text">
@@ -22,7 +24,7 @@ const Portfolio =() => {
                   <img src="./img/java.png" class="icon" alt="" />
                   <h3 class="title-sm">Pet sitter app</h3>
                   <p class="text">
-                    This one formed as part of the assignment and still working on.
+                    Redesigning the pet sitter application.
                   </p>
                   <a href="#" class="btn small">Read more</a>
                 </div>
@@ -35,8 +37,7 @@ const Portfolio =() => {
                   <img src="./img/python.jpg" class="icon" alt="" />
                   <h3 class="title-sm">Maze Application</h3>
                   <p class="text">
-                    This is a java Gui application which solves the maize problem, of finding the shortest path using 
-                    different search algorithms(BFS ,A* algorithms).
+                    This is a java Gui application to finding the shortest through a maze.
                   </p>
                   <a href="#" class="btn small">Read more</a>
                 </div>
@@ -51,7 +52,7 @@ const Portfolio =() => {
               />
               <div class="card" data-card="App">
                 <div class="card-content z-index">
-                  <img src="./img/html.png" class="icon" alt="" />
+                  <img src="" class="icon" alt=""  />
                   <h3 class="title-sm">Fitness Quiz </h3>
                   <p class="text">
                    This is a quiz application about healthy living lifestyle practise developed using C++
@@ -59,18 +60,8 @@ const Portfolio =() => {
                   <a href="#" class="btn small">Read more</a>
                 </div>
               </div>
-              <div class="card-wrap">
-              <div class="card" data-card="Code">
-                <div class="card-content z-index">
-                  <img src="./img/python.jpg" class="icon" alt="" />
-                  <h3 class="title-sm">My Other Portfolio</h3>
-                  <p class="text">
-                    Just html, css and js.
-                  </p>
-                  <a href="#" class="btn small">Read more</a>
-                </div>
-              </div>
-            </div>
+             
+            
             </div>
           </div>
         </div>

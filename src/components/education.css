@@ -1,0 +1,12 @@
+.container-ed{
+
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    font-size: 1.25rem;
+    
+    color: var(--dark-one);
+    font-family: "Poppins", sans-serif;;
+
+}
+

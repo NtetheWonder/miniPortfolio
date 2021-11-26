@@ -1,13 +1,13 @@
 const Header = () =>{
 
     return(
-            <div className="header-content">
+            <section className="header-content" id ="home">
           <div className="container grid-2">
             <div className="column-1">
               <h1 className="header-title">Ntethelelo Shabalala</h1>
               <p className="text">
               I want to be a software developer simply because it is a role that I am extremely passionate about, 
-             and also one I get immense job satisfaction, especially when I get to see first-hand the positive contribution my work makes to the organization I am  working on.
+              and also one I get immense job satisfaction, especially when I get to see first-hand the positive contribution my work makes to the organization I am  working on.
              
                 </p>
                 <p className="text">
@@ -15,7 +15,7 @@ const Header = () =>{
                 within the organization to develop innovative software. 
     
               </p>
-              <a href="#" className="btn">Download CV</a>
+              <a href="Shabalala Ntethelelo.pdf" download= "Shabalala Ntethelelo.pdf" className="btn">Get Resume</a>
              
             </div>
                 
@@ -24,7 +24,7 @@ const Header = () =>{
               <img src="./assets/img/blend.jpg" className="img-element z-index" alt="" height="100%" width="100%"/>
             </div>
           </div>
-        </div>
+        </section>
         
     )
 }

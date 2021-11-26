@@ -1,4 +1,4 @@
-
+import './portfolio.css';
 const About = () =>{
 
     return(
@@ -17,9 +17,7 @@ const About = () =>{
                 I chose Computer Science as it strongly complements my interest and pasion.
                 I have a strong interest in technology and enjoy solving problems primiraly through coding.
                </p>
-               <p className="text">
-               I am a hardworking, driven, technically savvy individual who will collaborate closely with others 
-                within the organization to develop innovative software. 
+               <p className="text"> 
                 If you pick me as part the SovTech graduate team, I will not only work hard to deliver consistent positive
                result, but I will use my developing, researching, analytical and technical skills to help the company to 
                continually thrive and develop.
@@ -81,31 +79,9 @@ const About = () =>{
               I am someone who is ambitious; I don't like to sit back and do the bare minimum, and if you take a chance on me, I feel
               confident you will be impressed with my work values, ethics and high standards.
              </p>
-             <h4 className="title-sm">Soft Skills highlight:</h4>
-             <div class="skills">
-                <div class="skill html">
-                  <h5 class="skill-title">Communication</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="90%"></div>
-                  </div>
-                </div>
-                <div class="skill css">
-                  <h5 class="skill-title">Adaptive</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="70%"></div>
-                  </div>
-                </div>
-                <div class="skill js">
-                  <h5 class="skill-title">Positive attitude</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="80%"></div>
-                  </div>
-                </div>
-              </div>
+             
               
-              
-              
-              <a href="#" class="btn">My Linkedin <img src = "./img/linkedin.png"/></a>
+              <a href="https://www.linkedin.com/in/ntethewonder/" target="_blank" class="btn">My Linkedin <img src = "./img/linkedin.png"/></a>
 
              
            </div>
