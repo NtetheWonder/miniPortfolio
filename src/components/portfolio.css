@@ -1,4 +1,5 @@
 
+/*---------------projects--------------------------*/
 .cards {
     display: flex;
     justify-content: space-around;
@@ -85,9 +86,9 @@
     pointer-events: none;
   }
   
-  /* End Services */
+  /*-------------------------End Projects---------------------------------- */
   
-  /* About */
+  /*------------------------------About-------------------------------------- */
   
   .about {
     overflow: hidden;
@@ -533,6 +534,7 @@
   
     .footer {
       padding: 4rem 0;
+      background: #252525 !important;
     }
   
     .footer-links a {
@@ -557,9 +559,7 @@
       font-size: 1.2rem;
     }
   
-    .copyright .text {
-      font-size: 0.95rem;
-    }
+   
   
     .followme h3 {
       font-size: 1.05rem;
@@ -642,12 +642,7 @@
       min-height: 80vh;
     }
   
-    .letters,
-    header .half-circle2,
-    header .points1,
-    header .wave2 {
-      display: none;
-    }
+    
   
     .grid-item {
       width: 50%;
@@ -788,10 +783,7 @@
       padding: 8rem 0 5rem 0;
     }
   
-    .contact-info {
-      display: none;
-    }
-  
+    
     .contact-box {
       padding: 2.3rem 2rem;
       border-radius: 30px;
