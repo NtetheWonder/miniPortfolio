@@ -15,7 +15,6 @@ function App() {
     <section className ="container">
    <Header/>
    <About/>
-   <Education/>
    <Portfolio/>
    <Contacts/>
    <Footer/>
