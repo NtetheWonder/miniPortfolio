@@ -40,8 +40,15 @@ Find the deployed app  here: [http://ntethe.netlify.app].
 ## Contacts
 ![contacts](https://user-images.githubusercontent.com/44553859/143159185-b7cfe4b3-2235-4bab-9f1d-0eaabaf76dd1.png)
 
+# website progress
+## home
+## About
+## Education/certificates
+## Projecs
+## Contacts
 
-
+#What still need some work
+Just need to add social and update the footer and also make the read more buttons responsive.
 
 ## Available Scripts
 
