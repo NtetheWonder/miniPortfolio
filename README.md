@@ -1,6 +1,54 @@
-# Getting Started with Create React App
+![home](https://user-images.githubusercontent.com/44553859/143158933-81ce1394-f196-4f6d-b7ab-09b041f43165.png)
+# Portfolio with Create React App
+Here I am working on building my portfolio using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Deployment
+Find the deployed app  here: [http://ntethe.netlify.app].
+
+# Menu
+
+<ul>
+<li>Home </li>
+<li>About me</li>
+<li>My education</li>
+<li>Portfolio/Projects</li>
+<li>Certifications</li>
+<li>Contacts</li>
+ <ul>
+
+# Technologies and stripts
+
+<p>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</p>
+   <p>JavaScript, CSS, Html</p>
+
+
+# website preview
+## Home
+
+![home](https://user-images.githubusercontent.com/44553859/143159110-cd3e4087-00af-41e7-8ec4-5584d44edc02.png)
+
+## About me
+<img src ="img/about.png">
+
+## Education
+<img src ="img/education.png">
+
+## Portfolio
+![projects](https://user-images.githubusercontent.com/44553859/143159237-a0b45808-acda-4c91-acf1-e7fab2c289dd.png)
+
+
+## Contacts
+![contacts](https://user-images.githubusercontent.com/44553859/143159185-b7cfe4b3-2235-4bab-9f1d-0eaabaf76dd1.png)
+
+# website progress
+## home
+## About
+## Education/certificates
+## Projecs
+## Contacts
+
+#What still need some work
+Just need to add social and update the footer and also make the read more buttons responsive.
 
 ## Available Scripts
 

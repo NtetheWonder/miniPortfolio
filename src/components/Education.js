@@ -10,7 +10,7 @@ const Education =() => {
         </div>
 
 
-  <div className="grid-2">
+  <div className="section-body grid-2">
     <div className="column-1">
       <div className ="text">
         <i className="fas fa-graduation-cap"></i>

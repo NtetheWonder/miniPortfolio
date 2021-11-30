@@ -6,13 +6,14 @@ const Header = () =>{
             <div className="column-1">
               <h1 className="header-title">Ntethelelo Shabalala</h1>
               <p className="text">
-                Hello, I'm Ntethelelo Shabalala, software developer.
+              Hello, I'm Ntethelelo Shabalala, I want to work in software development and would like to
+               gain experience that is not restricted to the field.
                 I chose Computer Science as it strongly complements my interest and pasion.
-                I have a strong interest in technology and solving problems primiraly through coding.
+                I have a strong interest in technology and enjoy solving problems primiraly through coding.
                 </p>
                 <p className="text">
-                I am hardworking, driven, technically astute and someone who will work closely with people within
-                the organization to achieve your  innovative software, technological development, solutions and services goals. 
+                I am a hardworking, driven, technically savvy individual who will collaborate closely with others 
+                within the organization to develop innovative software. 
     
               </p>
               <a href="#" className="btn">Download CV</a>
