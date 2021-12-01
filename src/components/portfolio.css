@@ -87,78 +87,7 @@
   }
   
   /*-------------------------End Projects---------------------------------- */
-  
-  /*------------------------------About-------------------------------------- */
-  
-  .about {
-    overflow: hidden;
-  }
-  
-  .about img {
-    max-width: 600px;
-  }
-  
-  .about .text {
-    margin-top: 1rem;
-  }
-  
-  .skills {
-    margin: 1.5rem 0 2.5rem 0;
-  }
-  
-  .skill {
-    margin: 1rem 0;
-  }
-  
-  .skill-title {
-    color: #555;
-    font-weight: 600;
-    margin-bottom: 0.3rem;
-  }
-  
-  .skill-bar {
-    width: 70%;
-    height: 8px;
-    border-radius: 4px;
-    background-color: #ece6fa;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .skill-progress {
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    top: 0;
-    left: 0;
-    background-color: var(--main-color);
-    transition: 1s;
-  }
-  
-  .about .column-1 {
-    position: relative;
-  }
-  
-  .about .column-1:before {
-    content: "About";
-    position: absolute;
-    font-size: 8rem;
-    font-weight: 800;
-    color: var(--main-color);
-    opacity: 0.04;
-    top: 20px;
-    left: 0;
-    line-height: 0;
-  }
-  
-  .about .points {
-    width: 300px;
-    top: 65%;
-    left: 80%;
-    opacity: 0.1;
-  }
-  
-  /* End About */
+
   
   /* Contact */
   
@@ -367,16 +296,7 @@
       width: 65px;
     }
   
-    .links a {
-      font-size: 0.8rem;
-      padding: 0.65rem 0.7rem;
-    }
-  
-    .links a.active {
-      font-size: 0.7rem;
-      padding: 0.7rem 1.7rem;
-      margin-left: 0.6rem;
-    }
+    
   
     .header-title {
       font-size: 2.6rem;
@@ -418,19 +338,7 @@
       width: 150px;
     }
   
-    .grid {
-      margin: 0.8rem 0;
-    }
-  
-    .grid-item {
-      padding: 0.8rem;
-    }
-  
-    .gallery-image {
-      height: 250px;
-      max-width: 325px;
-    }
-  
+    
     .gallery-image .img-overlay {
       padding: 1.4rem 2rem;
     }
@@ -440,13 +348,6 @@
       width: 2.8rem;
     }
   
-    .img-overlay h3 {
-      font-size: 1.1rem;
-    }
-  
-    .img-overlay h5 {
-      font-size: 0.8rem;
-    }
   
     .background-bg {
       height: 370px;
@@ -604,40 +505,8 @@
       margin-top: 1rem;
     }
   
-    .hamburger-menu {
-      display: flex;
-    }
   
-  
-  
-    .links {
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      top: 0;
-      right: 0;
-      background-color: #252525;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      transform: translateX(100%);
-      transition: 0.5s;
-    }
-  
-    .links ul {
-      flex-direction: column;
-    }
-  
-    .links a {
-      color: var(--light-one);
-    }
-  
-    .links a.active {
-      margin-left: 0;
-      margin: 0.5rem 0;
-    }
-  
+
     .header-content .container.grid-2 {
       min-height: 80vh;
     }

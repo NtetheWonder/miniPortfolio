@@ -1,14 +1,13 @@
-import './portfolio.css';
+import React from 'react'
 
-const Portfolio =() => {
-    return(
-        
-        <section class="project section" id="projects">
+function Certificates() {
+    return (
+        <section class="collection section" id="Achievements">
         <div class="container-port">
           <div class="section-header">
-            <h3 class="title" data-title="What I Do">Projects</h3>
+            <h3 class="title" data-title="My Collection">Certificates</h3>
             <p class="text">
-              Some of the project I have worked on and some still working on.
+              My collection so far.
             </p>
           </div>
 
@@ -66,7 +65,7 @@ const Portfolio =() => {
           </div>
         </div>
       </section>
-    
     )
 }
-export default Portfolio
+
+export default Certificates

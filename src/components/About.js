@@ -37,27 +37,17 @@ const About = () =>{
                   </div>
                 </div>
                 <div class="skill html">
-                  <h5 class="skill-title">HTML</h5>
+                  <h5 class="skill-title">HTML, CSS $ JS</h5>
                   <div class="skill-bar">
                     <div class="skill-progress" data-progress="80%"></div>
                   </div>
                 </div>
              
-                <div class="skill css">
-                  <h5 class="skill-title">CSS</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="70%"></div>
-                  </div>
-                </div>
-                <div class="skill js">
-                  <h5 class="skill-title">Javascript</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="80%"></div>
-                  </div>
-                </div>
+               
+                
               </div>
-              
-              <a href="#" class="btn">Read more</a>
+              <a href="https://www.linkedin.com/in/ntethewonder/" target="_blank" class="btn">My Linkedin </a>
+
            </div>
 
            <div className="column-2 ">
@@ -81,7 +71,7 @@ const About = () =>{
              </p>
              
               
-              <a href="https://www.linkedin.com/in/ntethewonder/" target="_blank" class="btn">My Linkedin <img src = "./img/linkedin.png"/></a>
+             
 
              
            </div>

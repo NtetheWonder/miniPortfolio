@@ -5,6 +5,7 @@ const Education =() => {
   return(
 
   <section className="education" id="education">
+    <div className="container">
     <div className="section-header">
       <h3 className="title" data-title="My journey">My Education</h3>
 
@@ -27,6 +28,8 @@ const Education =() => {
             <li>Object-oriented programming</li>
           </ul>
           <p>Hard work pays off</p>
+          <a href="#Achievements"  class="btn">Achievements</a>
+
         </div>
 
         <div className="column-2">
@@ -48,6 +51,8 @@ const Education =() => {
 
       </div>
 
+      </div>
+     
 
     </div>
 
