@@ -5,11 +5,23 @@ function Header(){
           <div className="container grid-2">
             <div className="column-1">
               <h1 className="header-title">Ntethelelo Shabalala</h1>
-              <p className="text">
-              I want to be a software developer simply because it is a role that I am extremely passionate about, 
-              and also one I get immense job satisfaction, especially when I get to see first-hand the positive contribution my work makes to the organization I am  working on.
-             
-                </p>
+              
+            
+              <div className="social-media">
+                <a href="https://www.facebook.com/ntethelelo.shabalala.98/" target="_blank">
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://github.com/NtetheWonder" target= "_blank">
+                  <i className="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/ntethewonder9/" target="_blank">
+                  <i className="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ntethewonder/" target="_blank">
+                  <i className="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+              
                 <p className="text">
                 I am a hardworking, driven, technically savvy individual who will collaborate closely with others 
                 within the organization to develop innovative software. 

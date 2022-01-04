@@ -12,7 +12,7 @@ const About = () =>{
            <div className="column-1">
              <h3 className="title-sm">Hi, I'm Ntethelelo Shabalala </h3>
              <p className="text">
-                I grew up in Estcourt. I completed
+                I grew up in Estcourt . I completed
                 my matric in 2017 at Bhekathina High School where I was one of the top achievers in the school.
                 Then I moved to Durban where I took on BSc. Computer Science and IT at the university of KwaZulu-Natal.
                 I chose Computer Science as it strongly complements my interest and pasion.
@@ -78,9 +78,44 @@ const About = () =>{
               confident that anyone I work with will be impressed with my work values, ethics and high standards.
              </p>
              
-              
+             <h4 className="title-sm">Skills highlight:</h4>
+             <div class="skills">
+                <div class="skill java">
+                  <h5 class="skill-title">Java</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90%"></div>
+                  </div>
+                </div>
+                <div class="skill python">
+                  <h5 class="skill-title">Python</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill html">
+                  <h5 class="skill-title">HTML, CSS $ JS</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+                <div class="skill python">
+                  <h5 class="skill-title">Python</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill html">
+                  <h5 class="skill-title">HTML, CSS $ JS</h5>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
              
-
+             
+              </div>
+             
+              <p></p>
+              <p></p>
              
            </div>
            
