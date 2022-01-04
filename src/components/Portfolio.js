@@ -3,7 +3,7 @@ import './portfolio.css';
 const Portfolio =() => {
     return(
         
-        <section class="project section" id="projects">
+        <section class="project section" >
         <div class="container-port">
           <div class="section-header">
             <h3 class="title" data-title="What I Do">Projects</h3>

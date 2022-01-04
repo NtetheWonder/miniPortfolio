@@ -2,7 +2,7 @@ import './portfolio.css';
 const About = () =>{
 
     return(
-       <section className="about section" id="about">
+       <section className="about section">
        <div className="container">
          <div className="section-header">
            <h3 className="title" data-title="Who Am I">About me</h3>
@@ -10,18 +10,27 @@ const About = () =>{
 
          <div className="section-body grid-2">
            <div className="column-1">
-             <h3 className="title-sm">Hi, my name is Ntethelelo Shabalala </h3>
+             <h3 className="title-sm">Hi, I'm Ntethelelo Shabalala </h3>
              <p className="text">
-              I want to work in software development and would like to
-               gain experience that is not restricted to the field.
+                I grew up in Estcourt. I completed
+                my matric in 2017 at Bhekathina High School where I was one of the top achievers in the school.
+                Then I moved to Durban where I took on BSc. Computer Science and IT at the university of KwaZulu-Natal.
                 I chose Computer Science as it strongly complements my interest and pasion.
                 I have a strong interest in technology and enjoy solving problems primiraly through coding.
                </p>
-               <p className="text"> 
-                If you pick me as part the SovTech graduate team, I will not only work hard to deliver consistent positive
-               result, but I will use my developing, researching, analytical and technical skills to help the company to 
-               continually thrive and develop.
-             </p>
+               <p className="text">
+                 Date of birth : 27 March 1999
+               </p>
+               <p className="text">
+                 Date of birth : 27 March 1999
+               </p>
+               <p className="text">
+                 Date of birth : 27 March 1999
+               </p>
+               <p className="text">
+                 Date of birth : 27 March 1999
+               </p>
+                
              <h4 className="title-sm">Skills highlight:</h4>
              <div class="skills">
                 <div class="skill java">
@@ -48,26 +57,25 @@ const About = () =>{
               </div>
               <a href="https://www.linkedin.com/in/ntethewonder/" target="_blank" class="btn">My Linkedin </a>
 
+              <p></p>
            </div>
 
            <div className="column-2 ">
-           <h3 className="title-sm">Why SovTech!</h3>
-             <p className="text">
-              For me, the company I work for is very important.I believe that, to be able to perform your duties and responsibilies
-              as a software developer competently, you need the support of your employer, and also need to work with like minded people
-              who are all working towards a common goal.
-              </p>
+           <h3 className="title-sm">Summary</h3>
+           
               <p className="text">
-              SovTech is known for it strong culture and strong belief in technology. You guys are not only a leader in the industry,
-              but you continually look for ways to grow and develop.
-              You clearly hire the best people in the business, which means I can get to learn from and grow alongside strong professionals who clearly cares and love their
-              jobs.
+                The skills and qualities I possess include the ability to work as part 
+                of a team and on my own, the ability to focus on building positive relationships with other team 
+                members/colleagues, customers and clients. A hard-working attitude that wants to complete tasks
+                to a high standard; and the desire to continually learn and develop by listening to and applying 
+                the knowledge others are willing to pass to me.
+
              </p>
 
         
              <p className="text">
-              I am someone who is ambitious; I don't like to sit back and do the bare minimum, and if you take a chance on me, I feel
-              confident you will be impressed with my work values, ethics and high standards.
+              I am someone who is ambitious; I don't like to sit back and do the bare minimum, and I feel
+              confident that anyone I work with will be impressed with my work values, ethics and high standards.
              </p>
              
               

@@ -1,7 +1,7 @@
-const Header = () =>{
+function Header(){
 
     return(
-            <section className="header-content" id ="home">
+            <section className="header-content">
           <div className="container grid-2">
             <div className="column-1">
               <h1 className="header-title">Ntethelelo Shabalala</h1>

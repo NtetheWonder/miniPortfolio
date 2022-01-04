@@ -2,61 +2,57 @@ import React from 'react'
 
 function Certificates() {
     return (
-        <section class="collection section" id="Achievements">
-        <div class="container-port">
-          <div class="section-header">
-            <h3 class="title" data-title="My Collection">Certificates</h3>
-            <p class="text">
+        <section className="collection section" id="Achievements">
+        <div className="container-port">
+          <div className="section-header">
+            <h3 className="title" data-title="My Collection">Certificates</h3>
+            <p className="text">
               My collection so far.
             </p>
           </div>
 
-          <div class="cards">
-            <div class="card-wrap">
+          <div className="cards">
+            <div className="card-wrap">
               <img
                 src="./img/shapes/points3.png"
-                class="points points1 points-sq"
+                className="points points1 points-sq"
                 alt=""
               />
-              <div class="card" data-card="UI/UX">
-                <div class="card-content z-index">
-                  <img src="./img/java.png" class="icon" alt="" />
-                  <h3 class="title-sm">Pet sitter app</h3>
-                  <p class="text">
-                    Redesigning the pet sitter application.
+              <div className="card" data-card="">
+                <div className="card-content z-index">
+                  <img src="../assets/img/java.png" className="icon" alt="" />
+                  <h3 className="title-sm">Java</h3>
+                  <p className="text">
+                    Hackerrank java basic certificate.
                   </p>
-                  <a href="" class="btn small">Read more</a>
+                  <a href="" target="_blank" className="btn small">See credentials</a>
                 </div>
               </div>
             </div>
 
-            <div class="card-wrap">
-              <div class="card" data-card="Code">
-                <div class="card-content z-index">
-                  <img src="./img/python.jpg" class="icon" alt="" />
-                  <h3 class="title-sm">Maze Application</h3>
-                  <p class="text">
-                    This is a java Gui application to finding the shortest through a maze.
+            <div className="card-wrap">
+              <div className="card" data-card="">
+                <div className="card-content z-index">
+                  <img src="../assets/img/javascript.png" className="icon" alt="" />
+                  <h3 className="title-sm">JavaScript</h3>
+                  <p className="text">
+                    Hackerrank JavaScript basic certificate.
                   </p>
-                  <a href="" class="btn small">Read more</a>
+                  <a href="" target="_blank" className="btn small">See credentials</a>
                 </div>
               </div>
             </div>
 
-            <div class="card-wrap">
-              <img
-                src="./img/css.png"
-                class="points points2 points-sq"
-                alt=""
-              />
-              <div class="card" data-card="App">
-                <div class="card-content z-index">
-                  <img src="" class="icon" alt=""  />
-                  <h3 class="title-sm">Fitness Quiz </h3>
-                  <p class="text">
-                   This is a quiz application about healthy living lifestyle practise developed using C++
+            <div className="card-wrap">
+              
+              <div className="card" data-card="">
+                <div className="card-content z-index">
+                  <img src="../assets/img/python.jpg" className="icon" alt=""  />
+                  <h3 className="title-sm">Python</h3>
+                  <p className="text">
+                  Hackerrank Python basic certificate.
                   </p>
-                  <a href="" class="btn small">Read more</a>
+                  <a href="" target="_blank" className="btn small">See credentials</a>
                 </div>
               </div>
              

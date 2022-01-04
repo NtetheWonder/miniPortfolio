@@ -5,6 +5,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
+    background-color: #6b44e0;
   }
   
   .card-wrap {
@@ -94,7 +95,8 @@
   .contact {
     position: relative;
     width: 100%;
-    padding: 13.5rem 0 8.5rem;
+    background-color: #6b44e0;
+   
   }
   
   .contact:before,
@@ -224,6 +226,7 @@
   }
   
   /* End Contact */
+  
   /* Footer */
 
 .footer {

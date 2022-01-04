@@ -1,12 +1,12 @@
-import React from 'react'
+import {Link} from 'react-router-dom';
 
-const Navbar =() =>{
+function Navbar(){
     return(
         
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-black">
         
         <div className ="container"> 
-        <a className="navbar-brand" href="#" className ="logo">NS</a>
+        <Link to='/' className ="logo">NS</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" ></span>
         </button>
@@ -16,20 +16,20 @@ const Navbar =() =>{
         
             <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
-                <a className="nav-link" href="#home">Home </a>
+                < Link className="nav-link" to="/home">Home </Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#about">About</a>
+                <Link className="nav-link" to="/about">About</Link>
         </li>
         
         <li className="nav-item">
-                <a className="nav-link" href="#projects">Projects</a>
+                <Link className="nav-link" to="/portfolio">Projects</Link>
         </li>
         <li className="nav-item">
-                <a className="nav-link" href="#education">Education</a>
+                < Link className="nav-link" to="/education">Education</Link>
         </li>
         <li className="nav-item">
-            <a className="nav-link" href="#contact">Contacts</a>
+            < Link className="nav-link" to="/contact">Contacts</Link>
         </li>   
         </ul>
         </div>

@@ -17,8 +17,6 @@ const Footer =() => {
           
          
         </div>
-
-
           <div className="followme-wrap">
             <div className="followme">
               <h3>Connect with me</h3>

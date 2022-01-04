@@ -1,6 +1,7 @@
-import './education.css';
+//import './education.css';
+import "./portfolio.css";
 
-const Education =() => {
+function Education() {
   
   return(
 
@@ -27,8 +28,9 @@ const Education =() => {
             <li>Data Structures</li>
             <li>Object-oriented programming</li>
           </ul>
+          <a href="Achievements"  class="btn">Achievements</a>
           <p>Hard work pays off</p>
-          <a href="#Achievements"  class="btn">Achievements</a>
+          
 
         </div>
 
@@ -40,7 +42,7 @@ const Education =() => {
           <h4>Subjects taken:</h4>
           <ul>
             <li>Pyhsical Sciences</li>
-            <li>Mathamatics </li>
+            <li>Mathamatics </li> 
             <li>English (as First Additional language)</li>
             <li>IsiZulu (Home language)</li>
             <li>Life Sciences </li>
