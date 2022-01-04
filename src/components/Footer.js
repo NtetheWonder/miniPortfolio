@@ -19,7 +19,7 @@ const Footer =() => {
         </div>
           <div className="followme-wrap">
             <div className="followme">
-              <h3>Connect with me</h3>
+              <h3>Connect</h3>
               <span className="footer-line"></span>
               <div className="social-media">
                 <a href="https://www.facebook.com/ntethelelo.shabalala.98/" target="_blank">

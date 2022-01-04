@@ -19,105 +19,34 @@ const About = () =>{
                 I have a strong interest in technology and enjoy solving problems primiraly through coding.
                </p>
                <p className="text">
-                 Date of birth : 27 March 1999
+                 First Names : Ntethelelo Wonder-boy
+               </p>
+               <p className="text">
+                 Surname : Shabalala
                </p>
                <p className="text">
                  Date of birth : 27 March 1999
                </p>
                <p className="text">
-                 Date of birth : 27 March 1999
+                 Gender : male
                </p>
                <p className="text">
-                 Date of birth : 27 March 1999
+                 From : Estcourt
+               </p>
+               <p className="text">
+                 Languages : IsiZulu(Home), English
                </p>
                 
-             <h4 className="title-sm">Skills highlight:</h4>
-             <div class="skills">
-                <div class="skill java">
-                  <h5 class="skill-title">Java</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="90%"></div>
-                  </div>
-                </div>
-                <div class="skill python">
-                  <h5 class="skill-title">Python</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="70%"></div>
-                  </div>
-                </div>
-                <div class="skill html">
-                  <h5 class="skill-title">HTML, CSS $ JS</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="80%"></div>
-                  </div>
-                </div>
              
-               
-                
-              </div>
               <a href="https://www.linkedin.com/in/ntethewonder/" target="_blank" class="btn">My Linkedin </a>
 
               <p></p>
            </div>
 
-           <div className="column-2 ">
-           <h3 className="title-sm">Summary</h3>
-           
-              <p className="text">
-                The skills and qualities I possess include the ability to work as part 
-                of a team and on my own, the ability to focus on building positive relationships with other team 
-                members/colleagues, customers and clients. A hard-working attitude that wants to complete tasks
-                to a high standard; and the desire to continually learn and develop by listening to and applying 
-                the knowledge others are willing to pass to me.
-
-             </p>
-
-        
-             <p className="text">
-              I am someone who is ambitious; I don't like to sit back and do the bare minimum, and I feel
-              confident that anyone I work with will be impressed with my work values, ethics and high standards.
-             </p>
-             
-             <h4 className="title-sm">Skills highlight:</h4>
-             <div class="skills">
-                <div class="skill java">
-                  <h5 class="skill-title">Java</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="90%"></div>
-                  </div>
-                </div>
-                <div class="skill python">
-                  <h5 class="skill-title">Python</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="70%"></div>
-                  </div>
-                </div>
-                <div class="skill html">
-                  <h5 class="skill-title">HTML, CSS $ JS</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="80%"></div>
-                  </div>
-                </div>
-                <div class="skill python">
-                  <h5 class="skill-title">Python</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="70%"></div>
-                  </div>
-                </div>
-                <div class="skill html">
-                  <h5 class="skill-title">HTML, CSS $ JS</h5>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="80%"></div>
-                  </div>
-                </div>
-             
-             
-              </div>
-             
-              <p></p>
-              <p></p>
-             
-           </div>
+           <div className="column-2 image">
+            
+              <img src="./assets/img/wonder.jpg" className="img-element z-index" alt="" height="100%" width="100%"/>
+            </div>
            
          </div>
        </div>

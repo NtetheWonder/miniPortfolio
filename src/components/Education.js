@@ -1,6 +1,6 @@
 //import './education.css';
 import "./portfolio.css";
-
+import {Link} from 'react-router-dom';
 function Education() {
   
   return(
@@ -28,7 +28,7 @@ function Education() {
             <li>Data Structures</li>
             <li>Object-oriented programming</li>
           </ul>
-          <a href="Achievements"  class="btn">Achievements</a>
+          <Link to="portfolio"  class="btn">Projects</Link>
           <p>Hard work pays off</p>
           
 

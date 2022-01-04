@@ -1,7 +1,7 @@
 
 /*---------------projects--------------------------*/
 .cards {
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
@@ -10,7 +10,7 @@
   
   .card-wrap {
     position: relative;
-    margin: 1.7rem 0.8rem;
+    margin: 1.7rem .8rem;
   }
   
   .card {
@@ -60,7 +60,7 @@
   }
   
   .icon {
-    width: 90px;
+    width: 400px;
     margin-bottom: 1.7rem;
   }
   
@@ -490,7 +490,7 @@
     }
   
     .icon {
-      width: 65px;
+      
       margin-bottom: 0.8rem;
     }
   
@@ -574,7 +574,7 @@
     }
   
     .contact-info {
-      padding-right: 1rem;
+      display: none;
     }
   
     .contact-box {

@@ -8,39 +8,23 @@ import Header from "./components/Home";
 import Footer from './components/Footer';
 import Contacts from './components/Contacts';
 import Portfolio from './components/Portfolio';
+import Certificates from './components/Certificates';
 
 function App() {
   return (
     <div>
       <Navbar/>
       <Switch>
-      <Route path="/" exact>
-        <Header/>
-        <Footer/>
-      </Route>
-      <Route path="/home">
-        <Header/>
-        <Footer/>
-      </Route>
-      <Route path="/about">
-        <About/>
-        <Footer/>
-      </Route>
-      <Route path ="/contact">
-        <Contacts/>
-        <Footer/>
-      </Route>
-      <Route path ="/portfolio">
-        <Portfolio/>
-        <Footer/>
-      </Route>
-      <Route path ="/education">
-        <Education/>
-        <Footer/>
-      </Route>
-      
+      <Route path="/" exact component ={Header}/>
+      <Route path="/home" component ={Header}/>
+      <Route path="/about" component={About}/>  
+      <Route path ="/contact" component={Contacts}/>
+      <Route path ="/portfolio" component={Portfolio}/>
+      <Route path ="/education" component= {Education}/>
+      <Route path ="/Achievements" component= {Certificates}/>
+       
       </Switch>
-      
+      <Footer/>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+
 function Header(){
 
     return(
@@ -33,7 +34,7 @@ function Header(){
                 
             <div className="column-2 image">
             
-              <img src="./assets/img/blend.jpg" className="img-element z-index" alt="" height="100%" width="100%"/>
+              <img src="./assets/img/blend.jpg" className="img-element z-index"  height="100%" width="100%"/>
             </div>
           </div>
         </section>
