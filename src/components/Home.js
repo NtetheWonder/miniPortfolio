@@ -5,6 +5,7 @@ function Header(){
             <section className="header-content">
           <div className="container grid-2">
             <div className="column-1">
+           
               <h1 className="header-title">Ntethelelo Shabalala</h1>
               
             
@@ -24,8 +25,7 @@ function Header(){
               </div>
               
                 <p className="text">
-                I am a hardworking, driven, technically savvy individual who will collaborate closely with others 
-                within the organization to develop innovative software. 
+                I am a hardworking, driven, technically savvy individual with a strong passion for software development. 
     
               </p>
               <a href="Shabalala Ntethelelo.pdf" download= "Shabalala Ntethelelo.pdf" className="btn">Get Resume</a>

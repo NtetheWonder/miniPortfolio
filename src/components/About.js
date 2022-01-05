@@ -12,7 +12,7 @@ const About = () =>{
            <div className="column-1">
              <h3 className="title-sm">Hi, I'm Ntethelelo Shabalala </h3>
              <p className="text">
-                I grew up in Estcourt . I completed
+                I grew up in Estcourt and completed
                 my matric in 2017 at Bhekathina High School where I was one of the top achievers in the school.
                 Then I moved to Durban where I took on BSc. Computer Science and IT at the university of KwaZulu-Natal.
                 I chose Computer Science as it strongly complements my interest and pasion.
@@ -45,7 +45,7 @@ const About = () =>{
 
            <div className="column-2 image">
             
-              <img src="./assets/img/wonder.jpg" className="img-element z-index" alt="" height="100%" width="100%"/>
+              <img src="./assets/img/wonder.jpg" className="img-element z-index" alt="" height="90%" width="100%"/>
             </div>
            
          </div>

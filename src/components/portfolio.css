@@ -1,7 +1,7 @@
 
 /*---------------projects--------------------------*/
 .cards {
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
@@ -10,7 +10,7 @@
   
   .card-wrap {
     position: relative;
-    margin: 1.7rem .8rem;
+    margin: 1.7rem 0.8rem;
   }
   
   .card {
@@ -93,9 +93,12 @@
   /* Contact */
   
   .contact {
-    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     width: 100%;
     background-color: #6b44e0;
+    justify-content: space-around;
    
   }
   
@@ -115,7 +118,7 @@
   }
   
   .contact:after {
-    top: 40%;
+    top: 20%;
     height: 60%;
   }
   
@@ -127,14 +130,19 @@
     padding: 5.5rem 4.5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
   }
   
   .contact-info {
     padding-right: 2rem;
+    padding-left: 2rem;
+    margin-left: 2rem;
   }
   
   .contact-form {
     padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 2rem;
   }
   
   .contact-info .title:after {
@@ -144,6 +152,7 @@
   
   .information-wrap {
     margin-top: 2rem;
+    
   }
   
   .information {
