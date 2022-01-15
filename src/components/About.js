@@ -45,7 +45,7 @@ const About = () =>{
 
            <div className="column-2 image">
             
-              <img src="./assets/img/wonder.jpg" className="img-element z-index" alt="" height="90%" width="100%"/>
+              
             </div>
            
          </div>
