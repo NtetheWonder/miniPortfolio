@@ -68,7 +68,7 @@ function Certificates() {
             <h3 className="title" data-title="My Collection">SoloLearn Courses</h3>
             <h4 className="text">
               
-              <a href="https://www.hackerrank.com/ntethewonder" target="_blank"> https://www.sololearn.com/profile/8266098</a> 
+              <a href="https://www.sololearn.com/profile/8266098" target="_blank"> https://www.sololearn.com/profile/8266098</a> 
             </h4>
           </div>
 
