@@ -35,37 +35,29 @@ const Contacts =() => {
             </div>
           </div>
 
-          <div className="contact-form">
+          <form className="contact-form" action="https://formsubmit.co/ntethewonder@gmail.com" method="POST">
             <h3 className="title">Contact me</h3>
+            
             <div className="row">
-              <input
-                type="text"
-                className="contact-input"
-                placeholder="First Name"
+              <input type="text" className="contact-input"  name="first-name" placeholder="First Name" required
               />
-              <input
-                type="text"
-                className="contact-input"
-                placeholder="Last Name"
-              />
+              <input type="text" className="contact-input"  name="last-name" placeholder="Last Name" required/>
             </div>
 
             <div className="row">
               <input type="text" className="contact-input" placeholder="Phone" />
-              <input type="email" className="contact-input" placeholder="Email" />
+              <input type="email" className="contact-input" name='email' placeholder="Email address" required />
             </div>
 
             <div className="row">
-              <textarea
-                name="message"
-                className="contact-input textarea"
-                placeholder="Message"
-              ></textarea>
+              <input type="text" name="message" className="contact-input textarea" placeholder="Enter message here" required/>
             </div>
-            <a href="#" className="btn">Send</a>
+            <button type="submit" className="btn">Send</button>
+            </form>
           </div>
+          
         </div>
-      </div>
+      
     </section>
     )
 }

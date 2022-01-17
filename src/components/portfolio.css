@@ -518,19 +518,6 @@
     .about .text {
       margin-top: 0.7rem;
     }
-  
-    .skills {
-      margin: 0.9rem 0 1.7rem 0;
-    }
-  
-    .skill-title {
-      font-size: 1rem;
-    }
-  
-    .skill-bar {
-      height: 6px;
-    }
-  
     .about .column-1:before {
       font-size: 6rem;
       top: 13px;
@@ -624,10 +611,7 @@
     .background-bg {
       height: 340px;
     }
-  
-    .skill-bar {
-      width: 100%;
-    }
+
   
     .about .column-1:before {
       font-size: 5rem;
@@ -745,13 +729,14 @@
     .text {
       font-size: 0.92rem;
     }
+    .btn1{
+      display: none;
+    }
   
-    
     .contact {
       padding: 8rem 0 5rem 0;
     }
-  
-    
+ 
     .contact-box {
       padding: 2.3rem 2rem;
       border-radius: 30px;

@@ -83,6 +83,21 @@ nav {
   margin-right: 2rem;
   align-items: center;
 }
+.btn1{
+  display: inline-block !important;
+  padding: 0.85rem 2rem !important;
+  background-color: var(--main-color) !important;
+  color: var(--light-one) !important;
+  border-radius: 2rem !important;
+  font-size: 1.05rem !important;
+  text-transform: uppercase !important;
+  font-weight: 450 !important;
+  transition: 0.3s !important;
+}
+.btn1:hover {
+  background-color: var(--dark-one) !important;
+}
+
 .btn {
   display: inline-block !important;
   padding: 0.85rem 2rem !important;

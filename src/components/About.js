@@ -20,7 +20,7 @@ const About = () =>{
                 I have a strong interest in technology and enjoy solving problems primiraly through coding.
                </p>
      
-              <a href="Shabalala Ntethelelo.pdf" download= "Shabalala Ntethelelo.pdf" className="btn">Get Resume</a>
+              <a href="Shabalala Ntethelelo.pdf" download= "Shabalala Ntethelelo.pdf" className="btn">Download CV</a>
               <p></p>
            </div>
 
