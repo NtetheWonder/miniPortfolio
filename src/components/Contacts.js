@@ -3,13 +3,13 @@ import './portfolio.css';
 const Contacts =() => {
     return(
       <section className="contact" id="contact">
-      <div className="container">
+      
         <div className="contact-box">
+          
           <div className="contact-info">
-            <h3 className="title">Get in touch</h3>
+            <h3 className="title">Contact Info</h3>
             <p className="text">
-              Please feel free to reach out to me, I would appriciate to hear any feeback,suggestion
-              or anything you have to say. I would be happy to engage with you.
+              Please feel free to reach out to me. I would love to hear from you.
             </p>
             <div className="information-wrap">
               <div className="information">
@@ -50,13 +50,13 @@ const Contacts =() => {
             </div>
             <input type="hidden" name="_next" value="https://ntethe.netlify.app/contact"/>
             <div className="row">
-              <input type="text" name="message" className="contact-input textarea" placeholder="Enter message here" required/>
+              <textarea type="text" name="message" className="contact-input textarea" placeholder="Enter message here" required/>
             </div>
             <button type="submit" className="btn">Send</button>
             </form>
           </div>
           
-        </div>
+      
       
     </section>
     )
