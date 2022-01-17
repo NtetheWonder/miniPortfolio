@@ -37,7 +37,7 @@ const Contacts =() => {
 
           <form className="contact-form" action="https://formsubmit.co/ntethewonder@gmail.com" method="POST">
             <h3 className="title">Contact me</h3>
-            
+           
             <div className="row">
               <input type="text" className="contact-input"  name="first-name" placeholder="First Name" required
               />
@@ -48,7 +48,7 @@ const Contacts =() => {
               <input type="text" className="contact-input" placeholder="Phone" />
               <input type="email" className="contact-input" name='email' placeholder="Email address" required />
             </div>
-
+            <input type="hidden" name="_next" value="https://ntethe.netlify.app"/>
             <div className="row">
               <input type="text" name="message" className="contact-input textarea" placeholder="Enter message here" required/>
             </div>
