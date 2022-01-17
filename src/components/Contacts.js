@@ -48,7 +48,7 @@ const Contacts =() => {
               <input type="text" className="contact-input" placeholder="Phone" />
               <input type="email" className="contact-input" name='email' placeholder="Email address" required />
             </div>
-            <input type="hidden" name="_next" value="https://ntethe.netlify.app"/>
+            <input type="hidden" name="_next" value="https://ntethe.netlify.app/contact"/>
             <div className="row">
               <input type="text" name="message" className="contact-input textarea" placeholder="Enter message here" required/>
             </div>
