@@ -1,4 +1,6 @@
 
+import {Link} from 'react-router-dom';
+
 function Header(){
 
     return(
@@ -28,7 +30,8 @@ function Header(){
                 I am a hardworking, driven, technically savvy individual with a strong passion for software development. 
     
               </p>
-              <a href="Shabalala Ntethelelo.pdf" download= "Shabalala Ntethelelo.pdf" className="btn">Get Resume</a>
+              
+              <Link to="about" className="btn">About me</Link>
              
             </div>
                 

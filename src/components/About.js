@@ -10,6 +10,7 @@ const About = () =>{
 
          <div className="section-body grid-2">
            <div className="column-1">
+            
              <h3 className="title-sm">Hi, I'm Ntethelelo Shabalala </h3>
              <p className="text">
                 I grew up in Estcourt and completed
@@ -18,7 +19,14 @@ const About = () =>{
                 I chose Computer Science as it strongly complements my interest and pasion.
                 I have a strong interest in technology and enjoy solving problems primiraly through coding.
                </p>
-               <p className="text">
+     
+              <a href="Shabalala Ntethelelo.pdf" download= "Shabalala Ntethelelo.pdf" className="btn">Get Resume</a>
+              <p></p>
+           </div>
+
+           <div className="column-2 image">
+            
+           <p className="text">
                  First Names : Ntethelelo Wonder-boy
                </p>
                <p className="text">
@@ -36,17 +44,11 @@ const About = () =>{
                <p className="text">
                  Languages : IsiZulu(Home), English
                </p>
-                
-             
-              <a href="https://www.linkedin.com/in/ntethewonder/" target="_blank" class="btn">My Linkedin </a>
-
-              <p></p>
-           </div>
-
-           <div className="column-2 image">
-            
-              
-            </div>
+               <p className="text">
+                 Hobbies : Coding, Chess, Workout, Video games
+               </p>
+               <a href="https://www.linkedin.com/in/ntethewonder/" target="_blank" class="btn">My Linkedin </a>
+                </div>
            
          </div>
        </div>
