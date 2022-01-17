@@ -8,7 +8,7 @@ function Certificates() {
         <div className='container'>
         <div className="container-port">
           <div className="section-header">
-            <h3 className="title" data-title="My Collection">Hackerrank Certificates</h3>
+            <h3 className="title" data-title="Certificates">Hackerrank</h3>
             <h4 className="text">
               
               <a href="https://www.hackerrank.com/ntethewonder" target="_blank"> https://www.hackerrank.com/ntethewonder</a> 
@@ -65,7 +65,7 @@ function Certificates() {
         <div className='container'>
         <div className="container-port">
           <div className="section-header">
-            <h3 className="title" data-title="My Collection">SoloLearn Courses</h3>
+            <h3 className="title" data-title="Courses">SoloLearn </h3>
             <h4 className="text">
               
               <a href="https://www.sololearn.com/profile/8266098" target="_blank"> https://www.sololearn.com/profile/8266098</a> 
