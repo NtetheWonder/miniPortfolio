@@ -25,9 +25,9 @@ function Header(){
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>
-              
+
                 <p className="text">
-                I am a hardworking, driven, technically savvy individual with a strong passion for software development. 
+                UKZN Computer Science and IT graduate with a strong passion for software development. 
     
               </p>
               
