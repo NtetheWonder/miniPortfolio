@@ -121,7 +121,7 @@ function Certificates() {
               
               <div className="card" data-card="">
                 <div className="card-content z-index">
-                  <img src="../assets/img/SQL_certificate.jpg" className="icon"  />
+                  <img src="../assets/img/Certificates/SQL_certificate.jpg" className="icon"  />
                   <h3 className="title-sm">SQL</h3>
                 
                 </div>
@@ -131,7 +131,7 @@ function Certificates() {
             <div className="card-wrap"> 
               <div className="card" data-card="">
                 <div className="card-content z-index">
-                  <img src="../assets/img/pythonHackerrank.png" className="icon"   />
+                  <img src="../assets/img/Certificates/Java_certificate.jpg" className="icon"   />
                   <h3 className="title-sm">Java</h3>
                   </div>
               </div>

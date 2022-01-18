@@ -9,9 +9,7 @@ const Footer =() => {
           <div className="grid-4-col footer-about">
             <h3 className="title-sm">About</h3>
             <p className="text">
-              I have recently completed my degree in Computer Science at the
-              university of KwaZulu-Natal. I'm more interested in software development or any Computer
-              Science related role, and thank you for reading this far.
+              I created this website using React.js, CSS and some bootstrap for the navigation bar.
             </p>
           </div>
           
